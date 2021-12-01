@@ -1,0 +1,32 @@
+{
+  "name": "tertris-parcel",
+  "version": "1.0.1",
+  "description": "Tetris javascript Meth Meth Method",
+  "repository": "https://github.com/meth-meth-method/tetris",
+  "author": "meth-meth-method",
+  "license": "MIT",
+  "source": "index.html",
+  "scripts": {
+    "start": "parcel index.html --open",
+    "build": "parcel build index.html --no-source-maps"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.16.0",
+    "@babel/plugin-proposal-class-properties": "^7.16.0",
+    "babel-eslint": "^10.1.0",
+    "cssnano": "^5.0.12",
+    "eslint": "^8.3.0",
+    "minimist": "^1.2.5",
+    "parcel": "^2.0.1",
+    "parcel-plugin-clean-easy": "^1.0.2",
+    "parcel-plugin-static-files-copy": "^2.6.0",
+    "postcss": "^8.4.4"
+  },
+  "parcelCleanPaths": [
+    "dist"
+  ],
+  "staticFiles": {
+    "staticPath": "public",
+    "watcherGlob": "**"
+  }
+}
