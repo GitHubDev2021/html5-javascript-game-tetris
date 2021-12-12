@@ -158,8 +158,7 @@ matrix.forEach((row, y) => {
             ctx.fillStyle = colors[value];
             ctx.fillRect(x + offset.x,
                          y + offset.y,
-                          1, 1)
-            
+                          1, 1)   
         }
     })
 })
